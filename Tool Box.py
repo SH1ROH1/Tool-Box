@@ -497,6 +497,7 @@ root.title("Tools Box")
 center_window(root, 1100, 560)
 root.resizable(False, False)
 root.config(bg="#2c1a47")
+root.iconbitmap('icon.ico')
 
 frame_main = tk.Frame(root, bg="#2c1a47")
 frame_main.pack(fill=tk.BOTH, expand=True)
